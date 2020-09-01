@@ -11,6 +11,7 @@ $(".feeButton").on("click", function(){
         $(".total").text(`$${results[2].toFixed(2)}`);
     } else {
         alert("Please enter a number greater than 0.")
+    }
 })
 
 function calculate(salePrice, shippingCharge, shippingCost){

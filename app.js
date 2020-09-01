@@ -7,7 +7,7 @@ $(".feeButton").on("click", function(){
     var salePrice = Number($(".salePrice").val())
     var shippingCharge = Number($(".shippingCharge").val())
     var shippingCost = Number($(".shippingCost").val())
-    var results = (calculate(salePrice, shippingCharge , shippingCost)
+    var results = calculate(salePrice, shippingCharge , shippingCost)
     if(shippingCharge > 0 && shippingCost > 0 && salePrice > 0){
         $(".grailedFee").text(`$${results[0].toFixed(2)}`)
         $(".paypalFee").text(`$${results[1].toFixed(2)}`)

@@ -9,9 +9,7 @@ $(".feeButton").on("click", function(){
         $(".grailedFee").text(`$${results[0].toFixed(2)}`)
         $(".paypalFee").text(`$${results[1].toFixed(2)}`)
         $(".total").text(`$${results[2].toFixed(2)}`);
-    } else {
-        alert("Please enter a number greater than 0.")
-    }
+    } 
 })
 
 function calculate(salePrice, shippingCharge, shippingCost){

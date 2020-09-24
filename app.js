@@ -1,6 +1,6 @@
 const grailedFee = 0.09
 const paypalFeePercent = 0.029
-const paypalFeeFlat = 0.03
+const paypalFeeFlat = 0.30
 
 
 $(".feeButton").on("click", function(){
